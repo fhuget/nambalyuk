@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/ban"
+        android:scaleType="centerCrop"
+        android:alpha="0.65"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/homepage"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#27AE61"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="32dp">
+
+            <TextView
+                android:id="@+id/judul"
+                android:textSize="24sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang !"
+                android:layout_marginLeft="80dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_below="@id/judul"
+                android:id="@+id/tampilnama"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="35dp"
+                android:text="nama"
+                android:textStyle="bold"
+                android:textColor="#fff" />
+
+            <ImageView
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/user"
+                android:outlineAmbientShadowColor="#fff"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"/>
+
+        <Button
+            android:id="@+id/bandekat"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Tambal Ban Terdekat"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_button_blue"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/bankontak"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Kontak Tambal Ban"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_button_blue"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/bantips"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Tips Perawatan Ban"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_button_blue"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/kelogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="KELUAR"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_button_red" />
+
+    </LinearLayout>
+
+</RelativeLayout>

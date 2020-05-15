@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TambalBanUAS</string>
+    <string name="title_activity_ban_dekat">Map</string>
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFFFFF"
-    tools:context=".ban_tips">
+    tools:context=".ban_tips_2">
 
     <ImageView
         android:layout_width="400dp"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="40dp"
-            android:text="Setelah bepergian menggunakan mobil, periksalah selalu kondisi ban mobil Anda. Kenapa ini perlu dilakukan? Saat mobil yang Anda kendarai tanpa sengaja masuk ke dalam jalanan yang berlumpur, kotoran berbentuk lumpur basah akan tertinggal. Dan jika tidak dibersihkan, lama-kelamaan kotoran tersebut akan mengering. Nah, kotoran yang telah mengering itulah yang dapat mengganggu laju kendaraan Anda."
+            android:text="Pastikan Anda menukar posisi ban mobil secara berkala, sesuai dengan keausan masing-masing ban. Biasanya ban mobil bagian depan lebih cepat aus dibandingkan dengan ban mobil bagian belakang, karena ban bagian depan digunakan untuk berbelok maupun mengerem laju mobil. Waktu terbaik untuk melakukan penukaran posisi ban adalah per 5.000 kilometer jarak tempuh kendaraan."
             android:textColor="#FFF"
             android:textSize="16dp" />
 

@@ -39,7 +39,7 @@ class SignIn : AppCompatActivity() {
 
     fun postkeserver(username:String,password:String)
     {
-        AndroidNetworking.post("http://192.168.43.31/tambalban/ceklogin.php")
+        AndroidNetworking.post("https://pkmktambalban.000webhostapp.com/tambalban/ceklogin.php")
             .addBodyParameter("gmail",username)
             .addBodyParameter("password",password)
             .setPriority(Priority.MEDIUM)

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFFFFF"
-    tools:context=".ban_tips">
+    tools:context=".ban_tips_2">
 
     <ImageView
         android:layout_width="400dp"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="40dp"
-            android:text="Setelah bepergian menggunakan mobil, periksalah selalu kondisi ban mobil Anda. Kenapa ini perlu dilakukan? Saat mobil yang Anda kendarai tanpa sengaja masuk ke dalam jalanan yang berlumpur, kotoran berbentuk lumpur basah akan tertinggal. Dan jika tidak dibersihkan, lama-kelamaan kotoran tersebut akan mengering. Nah, kotoran yang telah mengering itulah yang dapat mengganggu laju kendaraan Anda."
+            android:text="Periksa tekanan angin ban mobil Anda secara rutin dan pastikan bahwa ukuran tekanan masing-masing sudah sesuai dengan standar yang dibutuhkan. Pemeriksaan ini penting untuk dilakukan agar ban mobil tidak mudah rusak dan pecah. Tekanan ban yang berlebih atau bahkan kurang akan menyebabkan mobil terasa goyang dan tidak stabil saat dikendarai."
             android:textColor="#FFF"
             android:textSize="16dp" />
 

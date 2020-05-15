@@ -71,7 +71,7 @@
 
         <Button
             android:id="@+id/bandekat"
-            android:layout_width="250dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tambal Ban Terdekat"
             android:layout_margin="10dp"
@@ -81,7 +81,7 @@
 
         <Button
             android:id="@+id/bankontak"
-            android:layout_width="250dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kontak Tambal Ban"
             android:textColor="#fff"
@@ -91,7 +91,7 @@
 
         <Button
             android:id="@+id/bantips"
-            android:layout_width="250dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Tips Perawatan Ban"

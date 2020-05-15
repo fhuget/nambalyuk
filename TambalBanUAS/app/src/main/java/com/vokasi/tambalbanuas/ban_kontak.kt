@@ -35,7 +35,7 @@ class ban_kontak : AppCompatActivity() {
         val users=ArrayList<User>()
 
 
-        AndroidNetworking.get("http://192.168.43.31/tambalban/bengkel.php")
+        AndroidNetworking.get("https://pkmktambalban.000webhostapp.com/tambalban/bengkel.php")
             .setPriority(Priority.MEDIUM)
             .build()
             .getAsJSONObject(object : JSONObjectRequestListener {

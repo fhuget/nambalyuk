@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFFFFF"
-    tools:context=".ban_tips">
+    tools:context=".ban_tips_2">
 
     <ImageView
         android:layout_width="400dp"
@@ -20,14 +20,19 @@
         android:layout_marginTop="50dp"
         app:cardBackgroundColor="#FF0000">
 
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="40dp"
-            android:text="Setelah bepergian menggunakan mobil, periksalah selalu kondisi ban mobil Anda. Kenapa ini perlu dilakukan? Saat mobil yang Anda kendarai tanpa sengaja masuk ke dalam jalanan yang berlumpur, kotoran berbentuk lumpur basah akan tertinggal. Dan jika tidak dibersihkan, lama-kelamaan kotoran tersebut akan mengering. Nah, kotoran yang telah mengering itulah yang dapat mengganggu laju kendaraan Anda."
+           android:text="Membawa banyak barang saat bepergian memang tidak dilarangan, akan tetapi Anda tetap harus memerhatikan berat keseluruhan barang yang dibawa. Semakin berat maka kendaraan pun akan menanggung beban yang semakin berat juga. Oleh karena itu, barang yang tidak terlalu penting untuk dibawa sebaiknya tidak usah dibawa. Selain melakukan hal-hal di atas, jangan lupa untuk mengasuransikan mobil Anda dengan asuransi mobil Indonesia. Selain untuk berjaga-jaga apabila mengalami kerugian finansial akibat kecelakaan, asuransi ini juga menanggung risiko kerugian jika mobil dicuri maupun hilang, rusak akibat perbuatan jahat orang lain, serta akibat bencana alam dan banjir."
             android:textColor="#FFF"
             android:textSize="16dp" />
+        </androidx.core.widget.NestedScrollView>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/next"

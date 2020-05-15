@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Bulan Mei 2020 pada 11.24
+-- Waktu pembuatan: 14 Bulan Mei 2020 pada 17.46
 -- Versi server: 10.4.8-MariaDB
 -- Versi PHP: 7.3.11
 
@@ -53,15 +53,16 @@ CREATE TABLE `user` (
   `id_user` int(11) NOT NULL,
   `nama` varchar(255) NOT NULL,
   `gmail` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL
+  `password` varchar(255) NOT NULL,
+  `telepon` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data untuk tabel `user`
 --
 
-INSERT INTO `user` (`id_user`, `nama`, `gmail`, `password`) VALUES
-(11, 'diladila', 'tfdila@mail.com', '12345');
+INSERT INTO `user` (`id_user`, `nama`, `gmail`, `password`, `telepon`) VALUES
+(11, 'diladila', 'tfdila@mail.com', '12345', '');
 
 --
 -- Indexes for dumped tables

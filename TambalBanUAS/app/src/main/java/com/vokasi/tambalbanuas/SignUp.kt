@@ -21,20 +21,22 @@ class SignUp : AppCompatActivity() {
             var nama = signup_nama.text.toString()
             var gmail = signup_email.text.toString()
             var password = signup_password.text.toString()
+            var telepon = signup_telepon.text.toString()
 
 
-            postkeserver(nama, gmail, password)
+            postkeserver(nama, gmail, password, telepon)
             startActivity(Intent(this, SignIn::class.java))
         }
 
     }
 
-    fun postkeserver(nama: String, gmail: String, password: String) {
+    fun postkeserver(nama: String, gmail: String, password: String, telepon: String) {
 
-        AndroidNetworking.post("http://192.168.43.31/tambalban/register.php")
+        AndroidNetworking.post("https://pkmktambalban.000webhostapp.com/tambalban/register.php")
             .addBodyParameter("nama", nama)
             .addBodyParameter("gmail", gmail)
             .addBodyParameter("password", password)
+            .addBodyParameter("telepon", telepon)
             .setPriority(Priority.MEDIUM)
             .build()
             .getAsJSONArray(object : JSONArrayRequestListener {

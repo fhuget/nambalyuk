@@ -3,6 +3,8 @@
     package="com.vokasi.tambalbanuas">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -12,9 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ban_tips"></activity>
-        <activity android:name=".ban_kontak" />
+        <activity android:name=".ban_tips_4"></activity>
+        <activity android:name=".ban_tips_3" />
+        <activity android:name=".ban_tips_2" />
         <activity android:name=".ban_dekat" />
+        <activity android:name=".ban_tips" />
+        <activity android:name=".ban_kontak" />
         <activity android:name=".Menu" />
         <activity android:name=".SignUp" />
         <activity android:name=".SignIn" />
@@ -25,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDfrJDgyxNz1Y9XDlog_p3b4Q1vDnc2_lk" />
     </application>
 
 </manifest>
